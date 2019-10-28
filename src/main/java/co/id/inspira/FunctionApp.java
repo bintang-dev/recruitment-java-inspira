@@ -2,21 +2,29 @@ package co.id.inspira;
 
 public class FunctionApp {
     //Looping Biasa
-    public static void printFibbonarci(int i){
+    public void printFibbonarci(int n){
 
     }
 
-    public static void printFactorial(int i){
+    public void printFactorial(int n){
 
     }
 
     //Rekursif
 
-    public static int printFibbonarciRecursive(int i){
-        return 0;
+
+    public int FactorialRecursive(int n){
+
     }
 
-    public static int printFactorialRecursive(int i){
-        return 0;
+    int FibbonarciRecursive(int n){
+
+    }
+
+    public void printFibonacciRecursive(int n){
+        for (int i = 0;i<n;i++){
+            System.out.print(FibbonarciRecursive(i)+" ");
+        }
+        System.out.println();
     }
 }
